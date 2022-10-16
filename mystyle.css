@@ -31,9 +31,11 @@ ol li{
 summary{
     padding: 10px, 10px, 10px, 10px;
     color:hsl(200, 100%, 50%);
-    border-width: 2px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
     border-radius: 3ch;
-
+    text-align: center;
 }
 button:hover{
     color: rgb(227, 101, 213);
