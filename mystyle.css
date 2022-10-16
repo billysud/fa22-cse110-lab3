@@ -3,21 +3,46 @@ body {
     background-color: 	#36454F
   }
 
-  /* Adding colors to elements*/ 
 a[href] {
     color: hsl(30, 100%, 50%);
+    margin-left: 10vw;
+
   }
 
+
+/*giving h2 colors*/
 h2{
     color: rgb(154,39,230);
+    font-size: 2.1em;   
+    margin-left: 2ex;
+}
+/*Adding margins for paragraphs*/
+*p{
+    margin: 25px 50px 75px 10px;
 }
 ol li{
     color:antiquewhite;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 3px;
 }
 
 summary{
+    padding: 10px, 10px, 10px, 10px;
     color:hsl(200, 100%, 50%);
+    border-width: 2px;
+    border-radius: 3ch;
+
 }
 button:hover{
     color: rgb(227, 101, 213);
 }
+button:active {
+    box-shadow: 3px 3px 10px #ff6817;
+}
+
+creds{
+    color: black;
+    margin-left: 10vw;
+  }
