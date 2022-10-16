@@ -11,7 +11,15 @@ a[href] {
 
   }
 
-
+.item-1{
+    grid-area: header;
+  }
+.item-2, item-3 {
+    grid-area: sidebar;
+  }
+.item-4 + item-5{
+    grid-area: footer;
+  }
 
 /*giving h2 colors*/
 h2{
