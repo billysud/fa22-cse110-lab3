@@ -71,9 +71,12 @@ button:active {
     flex-basis: auto;
 }
 
-@media screen and (min-device-aspect-ratio: 16/9) {
+@media all and (max-width: 500px) {
     article {
       padding: 1rem 5vw;
+    }
+    body{
+        color: red;
     }
   }
 
