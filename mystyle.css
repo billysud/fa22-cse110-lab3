@@ -1,20 +1,24 @@
 
 body {
-    background-color: 	#36454F
+    background-color:   #36454F
   }
 
 a[href] {
     color: hsl(30, 100%, 50%);
+    text-align:justify;
     margin-left: 10vw;
+    position:sticky;
 
   }
+
 
 
 /*giving h2 colors*/
 h2{
     color: rgb(154,39,230);
-    font-size: 2.1em;   
+    font-size: 2.1em;
     margin-left: 2ex;
+    position:relative;
 }
 /*Adding margins for paragraphs*/
 *p{
@@ -22,20 +26,28 @@ h2{
 }
 ol li{
     color:antiquewhite;
+    margin: auto;
+    max-height: fit-content;
+    max-width: fit-content;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
     padding-left: 3px;
+    height: auto;
+    width: auto;
 }
 
 summary{
     padding: 10px, 10px, 10px, 10px;
     color:hsl(200, 100%, 50%);
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
     border-color: black;
     border-radius: 3ch;
     text-align: center;
+}
+pic~audio{
+    display: none;
 }
 button:hover{
     color: rgb(227, 101, 213);
@@ -43,6 +55,19 @@ button:hover{
 button:active {
     box-shadow: 3px 3px 10px #ff6817;
 }
+
+.cont > video{
+    display:flex;
+    order: 5;
+    flex-grow: 4;
+    flex-basis: auto;
+}
+
+@media screen and (min-device-aspect-ratio: 16/9) {
+    article {
+      padding: 1rem 5vw;
+    }
+  }
 
 creds{
     color: black;
