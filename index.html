@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="mystyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.google.com/specimen/Silkscreen" rel="stylesheet">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pomodoro Timer First Brainstorm</title>
+  <title>Taking minutes!</title>
   <link rel="icon" href="/image/favicon.ico" type="image/x-icon">
 
 </head>
@@ -12,13 +16,31 @@
 <body>
     <header>
 
-      <h1>Welcome to the meeting!</h1>
+      <h1 id="Welcome">Welcome to the meeting!</h1>
       <h2> 
+        <style>
+          /*Adding internal styling for the color of the header text*/ 
+            h1 {
+              color: orangered;
+              margin: 90mm;
+              font-size: 70px;
+              text-decoration:underline wavy;
+            }
+        </style>
       <a href="https://docs.google.com">Link to create a Google doc</a>
+
       </h2>
 
       <section>
       <h3>Todays Agenda includes</h3>
+      <style>
+      h3{
+        color: rgb(255,255,0);  
+        font-size: 22pt;
+        margin: 0px;
+        display: block;
+      }
+    </style>
 
       <ul>
       <li>Going over the construction</li>
@@ -41,7 +63,7 @@
     </header>
     <hr>
     <main>
-      <p> Taking minutes in a meeting is a very important task that is used to document 
+      <p style="color:red;"> Taking minutes in a meeting is a very important task that is used to document 
         progression of a group. Meeting are something that is used to get all workers on
         the same page about a project in the workplace. <b>Minutes</b> are useful to backtrack about
         topics that were already mentioned and to track tasks that need to be done or 
@@ -60,16 +82,24 @@
       </li>
       </ol>
       <hr>
-      <h2>How to take minutes</h2>
+      <griddy>
+      <h2 id="item-1">How to take minutes</h2>
+      <h2 id="item-2">Find out on this webpage</h2>
+      <h2 id="item-3">Did you notice?</h2>
+      <h2 id="item-4">This is a grid!</h2>
+      <h2 id="item-5">   </h2>
+      </griddy>
       <details>
-        <summary>Expand this to learn how to get minutes done quick!</summary>
-        <p>You can learn to type on a stenotype</p>
+        <summary id="summary">Expand this to learn how to get minutes done quick!</summary>
+        <p id="p">You can learn to type on a stenotype</p>
       </details>
+
+      <container id="cont">
         <h3>How you should be looking right now</h3>
-        <img src="./image/minutes.jpeg" width = 500 alt="Someone typing">
+        <img src="./image/minutes.jpeg" width = 500 alt="Someone typing" id="pic">
         <h3>How you should sound right now</h3>
         <audio controls src="./av/typing.mp3"></audio>
-        <div>Credits to 
+        <div attribute="creds">Credits to 
           <a href="https://www.youtube.com/watch?v=2BUNHd7ENZk&ab_channel=Impostor">Imposter</a>
         </div>
         <h3>A look through your camera</h3>
@@ -77,10 +107,10 @@
           <source src="./av/videoplayback.mp4" type="video/mp4">
         </video>
         <div>Credits to 
-          <a href="https://youtu.be/L3PEV_EiI-Q">NoThisIsJohn</a>
+          <a href="https://youtu.be/L3PEV_EiI-Q" media="screen">NoThisIsJohn</a>
         </div>
         <hr>
-  
+      </container>
       <form>
       
       <fieldset>

@@ -1,0 +1,23 @@
+
+body {
+    background-color: 	#36454F
+  }
+
+  /* Adding colors to elements*/ 
+a[href] {
+    color: hsl(30, 100%, 50%);
+  }
+
+h2{
+    color: rgb(154,39,230);
+}
+ol li{
+    color:antiquewhite;
+}
+
+summary{
+    color:hsl(200, 100%, 50%);
+}
+button:hover{
+    color: rgb(227, 101, 213);
+}
